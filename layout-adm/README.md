@@ -1,4 +1,4 @@
-# estudos
+# Estudos
 Implementações de estudo.
 
 Este projeto possui algumas páginas implementadas com um layout de um sistema administrativo simples.
