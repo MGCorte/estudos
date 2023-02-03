@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Formulário - Exemplos</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="mb-4">Formulário para cadastrar usuário</h1>
+        <hr>
+        <form>
+            <div class="mb-3">
+                <label for="campoEmail" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="campoEmail" aria-describedby="emailHelp"
+                    placeholder="Digite o seu melhor e-mail">
+                <div id="emailHelp" class="form-text">Necessário colocar um e-mail válido.</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="campoSenha" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="campoSenha"
+                    placeholder="A senha deve ter no minimo 6 caracteres">
+            </div>
+
+            <div class="mb-3">
+                <label for="campoNome" class="form-label">Nome</label>
+                <input type="text" id="campoNome" class="form-control" placeholder="Digite o nome completo"
+                    value="Marcelo Giovani Corte" disabled>
+            </div>
+
+            <div class="mb-3">
+                <label for="campoCpf" class="form-label">CPF</label>
+                <input type="text" id="campoCpf" class="form-control" placeholder="Digite o CPF"
+                    value="123.456.789-10" readonly>
+            </div>
+
+            <input type="submit" class="btn btn-outline-success" value="Cadastrar">
+        </form>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
