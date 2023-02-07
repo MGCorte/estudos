@@ -1,3 +1,5 @@
+Projeto de uma API utilizando conxão com banco de dados Mysql e acesso com validação de token.
+
 SEQUENCIA PARA CRIAR O PROJETO
 Criar o arquivo package
 ### npm init
